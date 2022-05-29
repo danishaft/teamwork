@@ -22,11 +22,11 @@ h1 {
 
 .card {
     color: #fff;
-    background: #2A265F;
+    background: #2a265f;
     width: 500px;
     margin:0 auto;
     padding: 40px 50px;
-    border-radius: 5px;
+    border-radius: 35px;
 }
 
 h3 {
@@ -34,6 +34,8 @@ h3 {
     padding-bottom: 30px;
     font-size: 50px;
 }
+
+
 
 ol {
     list-style-type: upper-roman;
