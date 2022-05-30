@@ -120,17 +120,44 @@ console.log(smallEquation);
 
 /* number 11 */
 
-const meritHeight = 1.69;
-const meritMass = 78;
+/* data 1 */
 
-const meritBMI = (78 / Math.pow(1.69, 2));
+const mh1 = 1.69;
+const mm1 = 78;
 
-const nutjobHeight = 1.95;
-const nutjobMass = 92;
+const mBMI = (78 / Math.pow(1.69, 2));
 
-const nutjobBMI = (92 / Math.pow(1.95, 2));
+console.log(`Merit BMI for data1 is ${mBMI}`);
+
+const nh1 = 1.95;
+const nm1 = 92;
+
+const nBMI = (92 / Math.pow(1.95, 2));
+
+console.log(`Nutjob BMI for data1 is ${nBMI}`);
 
 
-const meritHigherBMI = (meritBMI > nutjobBMI);
+const m1HigherBMI = (mBMI > nBMI);
 
-console.log(meritHigherBMI);
+console.log(`Does Merit has a higher BMI than Nutjob in data 1? ${m1HigherBMI} `);
+
+/* data 2 */
+
+const mh2 = 1.76;
+const mm2 = 85;
+
+const m2BMI = (85 / Math.pow(1.76, 2));
+
+console.log(`Merit BMI for data2 is ${m2BMI}`);
+
+const nh2 = 1.88;
+const nm2 = 95;
+
+const n2BMI = (95 / Math.pow(1.88, 2));
+
+console.log(`Nutjob BMI for data2 is ${n2BMI}`);
+
+
+const m2HigherBMI = (m2BMI > n2BMI);
+
+console.log(`Does Merit has a higher BMI than Nutjob in data 2? ${m2HigherBMI} `);
